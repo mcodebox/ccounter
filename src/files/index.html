@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+  <link rel="stylesheet" href="css/bundle.min.css">
+  <!-- <link rel="stylesheet" href="css/main.min.css"> -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div id="headDiv">
+    <div id="charDiv">Characters: <b><span id="charCount">0</span></b></div>
+  </div>
+  <div id="mainDiv">
+    <textarea id="textInput" autofocus onKeyDown="textCounter()" onKeyUp="textCounter()" maxlength="140" placeholder="Type your text..."></textarea>
+    <br>
+    <button onclick="clearInput()">Clear</button>
+  </div>
+  <div id="footDiv">Maximum 140 characters.</div>
+
+  <script src="js/bundle.min.js" charset="utf-8"></script>
+  <!-- <script src="js/main.min.js" charset="utf-8"></script> -->
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
