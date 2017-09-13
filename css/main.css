@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif; }
+
+#headDiv, #mainDiv, #footDiv {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px; }
+
+#footDiv {
+  font-size: 11px; }
+
+#charDiv {
+  width: 90%;
+  background-color: #85bcc8;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 10px;
+  margin: auto; }
+
+#charCount {
+  text-shadow: 1px 1px 1px black;
+  transition: color 500ms; }
+
+#textInput {
+  width: 90%;
+  border-radius: 8px 8px 8px 8px;
+  border: 5px solid #888;
+  outline: none;
+  padding: 10px;
+  font-size: 24px; }
